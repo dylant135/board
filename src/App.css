@@ -6,3 +6,24 @@
 h1 {
   text-align: center;
 }
+
+.board {
+  width: 40vw;
+  height: 40vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.square {
+  border: 1px solid black;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
